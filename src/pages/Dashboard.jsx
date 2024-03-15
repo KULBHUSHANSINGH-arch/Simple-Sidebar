@@ -1,11 +1,16 @@
 import React from 'react';
+import Header from '../Components/Header';
+import Content from '../Components/Content';
+import Footer from '../Components/Footer';
 
 const Dashboard = () => {
-    return (
-        <div>
-            <h1>dashboard page</h1>
-        </div>
-    );
-};
+  return (
+    <div>
+      <Header />
+      <Content />
+      <Footer />
+    </div>
+  );
+}
 
 export default Dashboard;
